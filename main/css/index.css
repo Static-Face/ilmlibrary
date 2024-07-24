@@ -244,7 +244,7 @@ footer {
     }
 
     .shortcuts a {
-        width: 50%; /* Full width for mobile view */
+        width: 100%; /* Full width for mobile view */
         margin: 10px;
     }
 
