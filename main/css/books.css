@@ -118,7 +118,7 @@ nav {
 
 .book-item img {
     width: 100%;
-    height: 270px; /* Set a fixed height for the book covers */
+    height: 250px; /* Consistent height for the book covers */
     object-fit: cover; /* Ensures the image covers the element */
     border-radius: 10px;
     transition: opacity 0.3s;
@@ -129,6 +129,7 @@ nav {
     font-size: 18px;
     color: black;
     margin: 10px 0;
+    text-align: center; /* Center the book title */
 }
 
 .book-item:hover {
@@ -221,8 +222,16 @@ footer {
         font-size: 40px; 
     }
 
+    .book-item img {
+        height: 280px; /* Adjust height for mobile */
+    }
+
     .book-item {
-        width: 100%;
+        width: 190px; /* Adjust width for mobile */
         margin: 10px;
+    }
+
+    .book-title {
+        margin-top: 15px; /* Adjust top margin for mobile */
     }
 }
