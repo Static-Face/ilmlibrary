@@ -105,18 +105,21 @@ nav {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin: 15px;
-    padding: 10px; /* Reduced padding */
+    padding: 10px;
     text-align: center;
-    width: 180px; /* Reduced width */
+    width: 180px;
     transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
     position: relative;
     overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    display: block;
 }
 
 .book-item img {
     width: 100%;
     border-radius: 10px;
-    transition: opacity 0.3s; /* Added transition for opacity */
+    transition: opacity 0.3s;
 }
 
 .book-title {
@@ -128,12 +131,12 @@ nav {
 
 .book-item:hover {
     transform: translateY(-10px);
-    background-color: rgba(255, 255, 255, 0.8); /* Whitish color with transparency */
+    background-color: white; /* Turn the whole rectangle white */
     color: black;
 }
 
 .book-item:hover img {
-    opacity: 0.5; /* Make image transparent on hover */
+    opacity: 0.5;
 }
 
 .book-item .view-more {
@@ -160,7 +163,7 @@ nav {
 
 .book-item:hover .view-more:hover {
     background-color: #00332b;
-    transform: translate(-50%, -50%) scale(1.05); /* Reduced scale for smaller hover effect */
+    transform: translate(-50%, -50%) scale(1.05);
 }
 
 /* Footer */
