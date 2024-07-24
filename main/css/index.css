@@ -250,6 +250,6 @@ footer {
 
     .shortcuts img {
         height: auto; /* Ensure the image adjusts to rectangle */
-        aspect-ratio: 1 / 1; /* Make the image rectangular */
+        aspect-ratio: 16 / 9; /* Make the image rectangular */
     }
 }
