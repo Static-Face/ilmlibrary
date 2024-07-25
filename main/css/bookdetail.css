@@ -95,7 +95,8 @@ nav {
 }
 
 .book-cover img {
-    width: 300px;
+    width: auto;
+    height: 500px;
     margin-top: 40px;
 }
 

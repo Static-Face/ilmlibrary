@@ -118,7 +118,7 @@ nav {
 
 .book-item img {
     width: 100%;
-    height: 250px; /* Consistent height for the book covers */
+    height: 270px; /* Consistent height for the book covers */
     object-fit: cover; /* Ensures the image covers the element */
     border-radius: 10px;
     transition: opacity 0.3s;
