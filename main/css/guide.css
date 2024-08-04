@@ -148,7 +148,7 @@ nav {
 }
 
 .step:nth-child(2n) {
-    border-left-color: #00796b;
+    border-left-color: #d3a202;
 }
 
 .step:nth-child(3n) {
